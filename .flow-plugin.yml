@@ -1,0 +1,16 @@
+
+name: php_install
+version: 0.0.1
+language: php
+description: Install dependencies use `composer install --prefer-source --no-interaction`
+public: true
+tags:
+  - php
+  - install
+inputs:
+outputs:
+script_path: ./run.sh  
+  
+template: |  
+  
+  
